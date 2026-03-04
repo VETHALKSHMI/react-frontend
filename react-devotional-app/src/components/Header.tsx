@@ -17,7 +17,7 @@ const Header = () => {
             textAlign: "center",
           }}
         >
-          <Typography variant="h2">Kanda Sashti Kavasam</Typography>
+          <Typography variant="h2">Tamil Devotional World</Typography>
         </Box>
         
     </>

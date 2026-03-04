@@ -1,14 +1,8 @@
-import {
-  Box,
-  ThemeProvider,
-  createTheme,
-  CssBaseline,
-  Grid,
-  Container,
-} from "@mui/material";
+import { Box, ThemeProvider, createTheme, CssBaseline } from "@mui/material";
 import Header from "./components/Header";
-import GodCard from "./components/GodCard";
-import { godsData } from "./data/godCardsData";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import LyricsPage from "./pages/LyricsPage";
 
 const theme = createTheme({
   palette: {
@@ -23,31 +17,24 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box
-        sx={{
-          height: "100vh",
-          display: "flex",
-          flexDirection: "column",
-          overflow: "hidden",
-        }}
-      >
-        <Box sx={{ height: "12vh", width: "100%", flexShrink: 0 }}>
-          <Header />
-        </Box>
+      <BrowserRouter>
         <Box
-          sx={{ height: "88vh", overflowY: "auto", py: 4, bgcolor: "#f9f9f9" }}
+          sx={{
+            height: "100vh",
+            display: "flex",
+            flexDirection: "column",
+            overflow: "hidden",
+          }}
         >
-          <Container maxWidth="xl">
-            <Grid container spacing={3}>
-              {godsData?.map((god) => (
-                <Grid item xs={12} sm={6} md={4} key={god.id}>
-                  <GodCard godName={god.title} godImage={god.image}/>
-                </Grid>
-              ))}
-            </Grid>
-          </Container>
+          <Box sx={{ height: "12vh", width: "100%", flexShrink: 0 }}>
+            <Header />
+          </Box>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/:godId/lyrics" element={<LyricsPage />} />
+          </Routes>
         </Box>
-      </Box>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }

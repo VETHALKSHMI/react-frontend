@@ -3,29 +3,30 @@ import perumalImg from "../assets/godImages/perumal.webp";
 import sivaLingamImg from "../assets/godImages/sivalingam.webp";
 
 interface GodData {
-  id: number;
+  id: string | number;
   title: string;
+  tamilName: string;
   image: string;
   path?: string;
 }
 
 export const godsData: GodData[] = [
   {
-    id: 1,
+    id: "murugan",
     title: "Lord Murugan",
+    tamilName: "முருகன்",
     image: muruganImg,
-    path: "/murugan",
   },
   {
-    id: 2,
+    id: "perumal",
     title: "Lord Perumal",
+    tamilName: "பெருமால்",
     image: perumalImg,
-    path: "/perumal",
   },
   {
-    id: 3,
+    id: "siva-lingam",
     title: "Lord Siva Lingam",
+    tamilName: "சிவ லிங்கம்",
     image: sivaLingamImg,
-    path: "/siva-lingam",
   },
 ];
