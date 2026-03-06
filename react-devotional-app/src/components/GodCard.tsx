@@ -7,7 +7,8 @@ import { useNavigate } from "react-router-dom";
 
 interface GodCardInterface {
   godId: string | number;
-  godName: string;
+  godName?: string;
+  tamilName: string;
   godImage: string;
   onClick?: () => void;
 }
@@ -16,14 +17,24 @@ const GodCard = (GodCardProps: GodCardInterface) => {
   const navigate = useNavigate();
   console.log("navigate", navigate);
 
-  const { godName, godImage, godId} = GodCardProps;
+  const { tamilName, godImage, godId } = GodCardProps;
   return (
     <Card
       sx={{
-        height: { xs: "calc(100vh - 120px)", sm: "100%" }, // 120px: adjust for header/margins
+        height: { xs: "calc(100vh - 120px)", sm: "100%" },
         display: "flex",
         flexDirection: "column",
-        borderRadius: 3,
+        borderRadius: "16px",
+        backgroundColor: "#FFFFFF",
+        transition: "transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out",
+        border: "1px solid #F0F0F0",
+        "&:hover": {
+          transform: "scale(1.05)",
+          boxShadow: "0px 12px 24px rgba(93, 14, 17, 0.1)",
+          borderColor: "#D4AF37",
+          backgroundColor: "#FFFEFA",
+        },
+        cursor: "pointer",
       }}
       onClick={() => navigate(`/${godId}/lyrics`)}
     >
@@ -38,19 +49,27 @@ const GodCard = (GodCardProps: GodCardInterface) => {
         <CardMedia
           component="img"
           image={godImage}
-          alt={godName}
+          alt={tamilName}
           sx={{
             width: "100%",
             height: { xs: "60vh", sm: 260 },
             objectFit: "contain",
             flexGrow: 1,
-            transition: "transform 0.3s ease-in-out",
-            "&:hover": { transform: "scale(1.03)" },
           }}
         />
         <CardContent>
-          <Typography variant="h6" textAlign="center">
-            {godName}
+          <Typography
+            variant="h6"
+            textAlign="center"
+            sx={{
+              color: "#5D0E11",
+              fontWeight: 700,
+              fontSize: "1.2rem",
+              textAlign: "center",
+              mt: 2,
+            }}
+          >
+            {tamilName}
           </Typography>
         </CardContent>
       </CardActionArea>

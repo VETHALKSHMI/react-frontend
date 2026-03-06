@@ -9,7 +9,7 @@ const Home = () => {
         <Grid container spacing={3}>
           {godsData?.map((god) => (
             <Grid item xs={12} sm={6} md={4} key={god.id}>
-              <GodCard godName={god.title} godImage={god.image} godId={god.id} />
+              <GodCard godName={god.title} godImage={god.image} godId={god.id} tamilName={god.tamilName} />
             </Grid>
           ))}
         </Grid>

@@ -14,19 +14,19 @@ export const godsData: GodData[] = [
   {
     id: "murugan",
     title: "Lord Murugan",
-    tamilName: "முருகன்",
+    tamilName: "முருகன் பக்தி பாடல்கள்",
     image: muruganImg,
   },
   {
     id: "perumal",
     title: "Lord Perumal",
-    tamilName: "பெருமால்",
+    tamilName: "பெருமால் பக்தி பாடல்கள்",
     image: perumalImg,
   },
   {
     id: "siva-lingam",
     title: "Lord Siva Lingam",
-    tamilName: "சிவ லிங்கம்",
+    tamilName: "சிவன் பக்தி பாடல்கள்",
     image: sivaLingamImg,
   },
 ];

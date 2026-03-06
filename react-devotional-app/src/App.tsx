@@ -5,12 +5,20 @@ import Home from "./pages/Home";
 import LyricsPage from "./pages/LyricsPage";
 
 const theme = createTheme({
-  palette: {
-    primary: {
-      main: "#007FFF",
-      dark: "#0066CC",
+palette:{
+  background:{
+    default: "#FDFCF8" // Light cream for the background
+  }
+},
+
+  typography: {
+    // This sets the font for the whole app
+    fontFamily: "'Mukta Malar', sans-serif", 
+    h1: {
+      fontFamily: "'Arima Madurai', cursive",
     },
   },
+  
 });
 
 function App() {
@@ -26,7 +34,7 @@ function App() {
             overflow: "hidden",
           }}
         >
-          <Box sx={{ height: "12vh", width: "100%", flexShrink: 0 }}>
+          <Box sx={{ height: "10vh", width: "100%", flexShrink: 0 }}>
             <Header />
           </Box>
           <Routes>

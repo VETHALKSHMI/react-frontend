@@ -16,7 +16,6 @@
         "tamil": "நேரிசை வெண்பா",
         "english": "Nerisai Venba"
       },
-
       "lines": {
         "tamil": [
           "துதிப்போர்க்கு வல்வினைபோம் துன்பம் போம் நெஞ்சில்",
@@ -31,35 +30,26 @@
           "Sashti Kavasam thanai"
         ]
       }
-    }
-  ],
-
-  "lyrics": [
-    {
-      "order": 1,
-      "type": "section",
-      "title": {
-        "tamil": "குறள் வெண்பா (காப்பு)",
-        "english": "Kural Venba (Kaappu)"
-      }
     },
     {
-      "order": 2,
-      "type": "verse",
-      "verseNo": 1,
+      "kappuTitle": {
+        "tamil": "குறள் வெண்பா (காப்பு)",
+        "english": "Kural Venba (Kaappu)"
+      },
       "lines": {
         "tamil": ["அமரர் இடர்தீர அமரம் புரிந்த", "குமரன் அடி நெஞ்சே குறி"],
         "english": [
           "Amarar idartheera amaram purindha",
           "Kumaran adi nenje kuri"
         ]
-      },
-      "meaning": ""
-    },
+      }
+    }
+  ],
+  "lyrics": [
     {
-      "order": 3,
+      "order": 1,
       "type": "verse",
-      "verseNo": 2,
+      "verseNo": 1,
       "lines": {
         "tamil": [
           "சஷ்டியை நோக்கச் சரவணபவனார்",
@@ -79,9 +69,9 @@
       "meaning": ""
     },
     {
-      "order": 4,
+      "order": 2,
       "type": "verse",
-      "verseNo": 3,
+      "verseNo": 2,
       "lines": {
         "tamil": [
           "கையில் வேலால் எனைக் காக்கவென்று வந்து",
@@ -101,9 +91,9 @@
       "meaning": ""
     },
     {
-      "order": 5,
+      "order": 3,
       "type": "verse",
-      "verseNo": 4,
+      "verseNo": 3,
       "lines": {
         "tamil": [
           "வாசவன் மருகா வருக வருக",
@@ -123,9 +113,9 @@
       "meaning": ""
     },
     {
-      "order": 6,
+      "order": 4,
       "type": "verse",
-      "verseNo": 5,
+      "verseNo": 4,
       "lines": {
         "tamil": [
           "சரவணபவனார் சடுதியில் வருக",
@@ -145,9 +135,9 @@
       "meaning": ""
     },
     {
-      "order": 7,
+      "order": 5,
       "type": "verse",
-      "verseNo": 6,
+      "verseNo": 5,
       "lines": {
         "tamil": [
           "வசர ஹணப வருக வருக",
@@ -167,9 +157,9 @@
       "meaning": ""
     },
     {
-      "order": 8,
+      "order": 6,
       "type": "verse",
-      "verseNo": 7,
+      "verseNo": 6,
       "lines": {
         "tamil": [
           "விரைந்தெனைக் காக்க வேலோன் வருக",
@@ -189,9 +179,9 @@
       "meaning": ""
     },
     {
-      "order": 9,
+      "order": 7,
       "type": "verse",
-      "verseNo": 8,
+      "verseNo": 7,
       "lines": {
         "tamil": [
           "சண்முகம் நீயும் தனியொளி யொவ்வும்",
@@ -211,9 +201,9 @@
       "meaning": ""
     },
     {
-      "order": 10,
+      "order": 8,
       "type": "verse",
-      "verseNo": 9,
+      "verseNo": 8,
       "lines": {
         "tamil": [
           "நன்னெறி நெற்றியில் நவமணிச் சுட்டியும்",
@@ -233,9 +223,9 @@
       "meaning": ""
     },
     {
-      "order": 11,
+      "order": 9,
       "type": "verse",
-      "verseNo": 10,
+      "verseNo": 9,
       "lines": {
         "tamil": [
           "முப்புரி நூலும் முத்தணி மார்பும்",
@@ -255,9 +245,9 @@
       "meaning": ""
     },
     {
-      "order": 12,
+      "order": 10,
       "type": "verse",
-      "verseNo": 11,
+      "verseNo": 10,
       "lines": {
         "tamil": [
           "திருவடியதனில் சிலம்பொலி முழங்க",
@@ -277,9 +267,9 @@
       "meaning": ""
     },
     {
-      "order": 13,
+      "order": 11,
       "type": "verse",
-      "verseNo": 12,
+      "verseNo": 11,
       "lines": {
         "tamil": [
           "ரரரர ரரரர ரரரர ரரர",
@@ -299,9 +289,9 @@
       "meaning": ""
     },
     {
-      "order": 14,
+      "order": 12,
       "type": "verse",
-      "verseNo": 13,
+      "verseNo": 12,
       "lines": {
         "tamil": [
           "முந்து முந்து முருகவேள் முந்து",
@@ -321,9 +311,9 @@
       "meaning": ""
     },
     {
-      "order": 15,
+      "order": 13,
       "type": "verse",
-      "verseNo": 14,
+      "verseNo": 13,
       "lines": {
         "tamil": [
           "உன்றிருவடியை உறுதியென்றெண்ணும்",
@@ -343,9 +333,9 @@
       "meaning": ""
     },
     {
-      "order": 16,
+      "order": 14,
       "type": "verse",
-      "verseNo": 15,
+      "verseNo": 14,
       "lines": {
         "tamil": [
           "பொடிபுனை நெற்றியைப் புனிதவேல் காக்க",
@@ -365,9 +355,9 @@
       "meaning": ""
     },
     {
-      "order": 17,
+      "order": 15,
       "type": "verse",
-      "verseNo": 16,
+      "verseNo": 15,
       "lines": {
         "tamil": [
           "முப்பத்திருபல் முனைவேல் காக்க",
@@ -387,9 +377,9 @@
       "meaning": ""
     },
     {
-      "order": 18,
+      "order": 16,
       "type": "verse",
-      "verseNo": 17,
+      "verseNo": 16,
       "lines": {
         "tamil": [
           "சேரிள முலைமார் திருவேல் காக்க",
@@ -409,9 +399,9 @@
       "meaning": ""
     },
     {
-      "order": 19,
+      "order": 17,
       "type": "verse",
-      "verseNo": 18,
+      "verseNo": 17,
       "lines": {
         "tamil": [
           "வெற்றிவேல் வயிற்றை விளங்கவே காக்க",
@@ -431,9 +421,9 @@
       "meaning": ""
     },
     {
-      "order": 20,
+      "order": 18,
       "type": "verse",
-      "verseNo": 19,
+      "verseNo": 18,
       "lines": {
         "tamil": [
           "வட்டக் குதத்தை வல்வேல் காக்க",
@@ -453,9 +443,9 @@
       "meaning": ""
     },
     {
-      "order": 21,
+      "order": 19,
       "type": "verse",
-      "verseNo": 20,
+      "verseNo": 19,
       "lines": {
         "tamil": [
           "முன்கைகள் இரண்டும் முரண்வேல் காக்க",
@@ -475,9 +465,9 @@
       "meaning": ""
     },
     {
-      "order": 22,
+      "order": 20,
       "type": "verse",
-      "verseNo": 21,
+      "verseNo": 20,
       "lines": {
         "tamil": [
           "எப்பொழுதும் எனை எதிர்வேல் காக்க",
@@ -497,9 +487,9 @@
       "meaning": ""
     },
     {
-      "order": 23,
+      "order": 21,
       "type": "verse",
-      "verseNo": 22,
+      "verseNo": 21,
       "lines": {
         "tamil": [
           "ஏமத்தில் சாமத்தில் எதிர்வேல் காக்க",
@@ -519,9 +509,9 @@
       "meaning": ""
     },
     {
-      "order": 24,
+      "order": 22,
       "type": "verse",
-      "verseNo": 23,
+      "verseNo": 22,
       "lines": {
         "tamil": [
           "பார்க்கப் பார்க்கப் பாவம் பொடிபட",
@@ -541,9 +531,9 @@
       "meaning": ""
     },
     {
-      "order": 25,
+      "order": 23,
       "type": "verse",
-      "verseNo": 24,
+      "verseNo": 23,
       "lines": {
         "tamil": [
           "கொள்ளிவாய்ப் பேய்களும் குறளைப் பேய்களும்",
@@ -563,9 +553,9 @@
       "meaning": ""
     },
     {
-      "order": 26,
+      "order": 24,
       "type": "verse",
-      "verseNo": 25,
+      "verseNo": 24,
       "lines": {
         "tamil": [
           "கனபூசை கொள்ளும் காளியோடனே வரும்",
@@ -585,9 +575,9 @@
       "meaning": ""
     },
     {
-      "order": 27,
+      "order": 25,
       "type": "verse",
-      "verseNo": 26,
+      "verseNo": 25,
       "lines": {
         "tamil": [
           "பூனை மயிரும் பிள்ளைகள் என்பும்",
@@ -607,9 +597,9 @@
       "meaning": ""
     },
     {
-      "order": 28,
+      "order": 26,
       "type": "verse",
-      "verseNo": 27,
+      "verseNo": 26,
       "lines": {
         "tamil": [
           "காசும் பணமும் காவுடன் சோறும்",
@@ -629,9 +619,9 @@
       "meaning": ""
     },
     {
-      "order": 29,
+      "order": 27,
       "type": "verse",
-      "verseNo": 28,
+      "verseNo": 27,
       "lines": {
         "tamil": [
           "அஞ்சி நடுங்கிட அரண்டு புரண்டிட",
@@ -651,9 +641,9 @@
       "meaning": ""
     },
     {
-      "order": 30,
+      "order": 28,
       "type": "verse",
-      "verseNo": 29,
+      "verseNo": 28,
       "lines": {
         "tamil": [
           "கட்டு கட்டு கதறிடக் கட்டு",
@@ -673,9 +663,9 @@
       "meaning": ""
     },
     {
-      "order": 31,
+      "order": 29,
       "type": "verse",
-      "verseNo": 30,
+      "verseNo": 29,
       "lines": {
         "tamil": [
           "பற்று பற்று பகலவன் தணலெரி",
@@ -695,9 +685,9 @@
       "meaning": ""
     },
     {
-      "order": 32,
+      "order": 30,
       "type": "verse",
-      "verseNo": 31,
+      "verseNo": 30,
       "lines": {
         "tamil": [
           "தேளும் பாம்பும் செய்யான் பூரான்",
@@ -717,9 +707,9 @@
       "meaning": ""
     },
     {
-      "order": 33,
+      "order": 31,
       "type": "verse",
-      "verseNo": 32,
+      "verseNo": 31,
       "lines": {
         "tamil": [
           "சூலை சயங் குன்மம் சொக்குச் சிரங்கு",
@@ -739,9 +729,9 @@
       "meaning": ""
     },
     {
-      "order": 34,
+      "order": 32,
       "type": "verse",
-      "verseNo": 33,
+      "verseNo": 32,
       "lines": {
         "tamil": [
           "எல்லாப் பிணியும் என்றனைக் கண்டால்",
@@ -761,9 +751,9 @@
       "meaning": ""
     },
     {
-      "order": 35,
+      "order": 33,
       "type": "verse",
-      "verseNo": 34,
+      "verseNo": 33,
       "lines": {
         "tamil": [
           "உன்னைத் துதிக்க உன் திருநாமம்",
@@ -783,9 +773,9 @@
       "meaning": ""
     },
     {
-      "order": 36,
+      "order": 34,
       "type": "verse",
-      "verseNo": 35,
+      "verseNo": 34,
       "lines": {
         "tamil": [
           "காத்துத் தேவர்கள் கடுஞ்சிறை விடுத்தாய்",
@@ -805,9 +795,9 @@
       "meaning": ""
     },
     {
-      "order": 37,
+      "order": 35,
       "type": "verse",
-      "verseNo": 36,
+      "verseNo": 35,
       "lines": {
         "tamil": [
           "கதிர்காமத்துறை கதிர்வேல் முருகா",
@@ -827,9 +817,9 @@
       "meaning": ""
     },
     {
-      "order": 38,
+      "order": 36,
       "type": "verse",
-      "verseNo": 37,
+      "verseNo": 36,
       "lines": {
         "tamil": [
           "காரார் குழலாள் கலைமகள் நன்றாய்",
@@ -849,9 +839,9 @@
       "meaning": ""
     },
     {
-      "order": 39,
+      "order": 37,
       "type": "verse",
-      "verseNo": 38,
+      "verseNo": 37,
       "lines": {
         "tamil": [
           "நேசமுடன் யான் நெற்றியில் அணியப்",
@@ -871,9 +861,9 @@
       "meaning": ""
     },
     {
-      "order": 40,
+      "order": 38,
       "type": "verse",
-      "verseNo": 39,
+      "verseNo": 38,
       "lines": {
         "tamil": [
           "சித்திபெற்றடியேன் சிறப்புடன் வாழ்க",
@@ -893,9 +883,9 @@
       "meaning": ""
     },
     {
-      "order": 41,
+      "order": 39,
       "type": "verse",
-      "verseNo": 40,
+      "verseNo": 39,
       "lines": {
         "tamil": [
           "வாழ்க வாழ்க வாரணத் துவஜம்",
@@ -915,9 +905,9 @@
       "meaning": ""
     },
     {
-      "order": 42,
+      "order": 40,
       "type": "verse",
-      "verseNo": 41,
+      "verseNo": 40,
       "lines": {
         "tamil": [
           "பெற்றவள் குறமகள் பெற்றவளாமே",
@@ -937,9 +927,9 @@
       "meaning": ""
     },
     {
-      "order": 43,
+      "order": 41,
       "type": "verse",
-      "verseNo": 42,
+      "verseNo": 41,
       "lines": {
         "tamil": [
           "பாலன் தேவராயன் பகர்ந்ததை",
@@ -959,9 +949,9 @@
       "meaning": ""
     },
     {
-      "order": 44,
+      "order": 42,
       "type": "verse",
-      "verseNo": 43,
+      "verseNo": 42,
       "lines": {
         "tamil": [
           "சிந்தை கலங்காது தியானிப்பவர்கள்",
@@ -981,9 +971,9 @@
       "meaning": ""
     },
     {
-      "order": 45,
+      "order": 43,
       "type": "verse",
-      "verseNo": 44,
+      "verseNo": 43,
       "lines": {
         "tamil": [
           "மாற்றலரெல்லாம் வந்து வணங்குவர்",
@@ -1003,9 +993,9 @@
       "meaning": ""
     },
     {
-      "order": 46,
+      "order": 44,
       "type": "verse",
-      "verseNo": 45,
+      "verseNo": 44,
       "lines": {
         "tamil": [
           "வழியாய்க் காண மெய்யாய் விளங்கும்",
@@ -1025,9 +1015,9 @@
       "meaning": ""
     },
     {
-      "order": 47,
+      "order": 45,
       "type": "verse",
-      "verseNo": 46,
+      "verseNo": 45,
       "lines": {
         "tamil": [
           "அறிந்தென துள்ளம் அஷ்டலட்சுமிகளில்",
@@ -1047,9 +1037,9 @@
       "meaning": ""
     },
     {
-      "order": 48,
+      "order": 46,
       "type": "verse",
-      "verseNo": 47,
+      "verseNo": 46,
       "lines": {
         "tamil": [
           "சின்னக் குழந்தை சேவடி போற்றி",
@@ -1069,9 +1059,9 @@
       "meaning": ""
     },
     {
-      "order": 49,
+      "order": 47,
       "type": "verse",
-      "verseNo": 48,
+      "verseNo": 47,
       "lines": {
         "tamil": [
           "திறமிகு திவ்விய தேகா போற்றி",
@@ -1091,9 +1081,9 @@
       "meaning": ""
     },
     {
-      "order": 50,
+      "order": 48,
       "type": "verse",
-      "verseNo": 49,
+      "verseNo": 48,
       "lines": {
         "tamil": [
           "மயில் நடமிடுவோய் மலரடி சரணம்",
