@@ -25,15 +25,16 @@ const GodCard = (GodCardProps: GodCardInterface) => {
         display: "flex",
         flexDirection: "column",
         borderRadius: "16px",
-        backgroundColor: "#FFFFFF",
-        transition: "transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out",
-        border: "1px solid #F0F0F0",
-        "&:hover": {
-          transform: "scale(1.05)",
-          boxShadow: "0px 12px 24px rgba(93, 14, 17, 0.1)",
-          borderColor: "#D4AF37",
-          backgroundColor: "#FFFEFA",
-        },
+        backgroundColor: "background.paper",
+    transition: "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)",
+    position: "relative",
+    overflow: "hidden",
+    border: (theme) => `1px solid ${theme.palette.mode === 'dark' ? 'rgba(212, 175, 55, 0.2)' : 'transparent'}`,
+    "&:hover": {
+      transform: "translateY(-8px)",
+      borderColor: "secondary.main", 
+      boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(212, 175, 55, 0.2)",
+    },
         cursor: "pointer",
       }}
       onClick={() => navigate(`/${godId}/${songId}`)}
@@ -62,7 +63,7 @@ const GodCard = (GodCardProps: GodCardInterface) => {
             variant="h6"
             textAlign="center"
             sx={{
-              color: "#5D0E11",
+              color: "text.secondary",
               fontWeight: 700,
               fontSize: "1.2rem",
               textAlign: "center",

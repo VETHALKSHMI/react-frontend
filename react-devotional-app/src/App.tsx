@@ -3,23 +3,14 @@ import Header from "./components/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import { LyricsPage } from "./pages/LyricsPage";
-
-const theme = createTheme({
-  palette: {
-    background: {
-      default: "#f9f9f9",
-    },
-  },
-  typography: {
-    // This sets the font for the whole app
-    fontFamily: "'Noto Sans Tamil', sans-serif",
-    h1: {
-      fontFamily: "'Arima Madurai', cursive",
-    },
-  },
-});
+import { useMemo, useState } from "react";
+import { getDevotionalTheme } from "./theme";
 
 function App() {
+  const [mode, setMode] = useState<'light' | 'dark'>('light');
+  const theme = useMemo(() => createTheme(getDevotionalTheme(mode)), [mode]);
+  const toggleTheme = () => setMode((prev) => (prev === 'light' ? 'dark' : 'light'));
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -32,8 +23,8 @@ function App() {
             overflow: "hidden",
           }}
         >
-          <Header />
-          <Box sx={{ flex: 1, overflow: "auto", pt: "10vh" }}>
+          <Header mode={mode} toggleTheme={toggleTheme} />
+          <Box sx={{ flex: 1, overflow: "auto", pt: "10vh", bgcolor: "background.default", transition: "background-color 0.5s ease-in-out, color 0.5s ease-in-out" }}>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/:godId/:songId" element={<LyricsPage />} />

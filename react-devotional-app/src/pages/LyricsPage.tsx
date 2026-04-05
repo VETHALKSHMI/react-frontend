@@ -8,9 +8,10 @@ export const LyricsPage = () => {
       sx={{
         flex: 1,
         overflowY: "auto",
-        //   backgroundColor: "#FDFCF8", // Devotional cream color
-        background: "radial-gradient(circle, #FDFCF8 0%, #F7F5EE 100%)",
+        bgcolor: "background.default",
+        transition: "background-color 0.5s ease-in-out",
         pb: 10,
+        
       }}
     >
       <Container
@@ -25,6 +26,7 @@ export const LyricsPage = () => {
                   <Typography
                     key={i}
                     sx={{
+                      ransition: "color 0.6s ease-in-out",
                       fontSize: { xs: "3.8vw", md: "1.5rem" },
                       // whiteSpace: "nowrap",
                       // textAlign: "center",
@@ -32,7 +34,7 @@ export const LyricsPage = () => {
                       overflow: "hidden", // Prevents the page from shaking
                       // textOverflow: "ellipsis", // Adds '...' if it absolutely cannot fit
                       // fontSize: { xs: 18, sm: 20 },
-                      // color: "#7F8C8D", // Subtle grey
+                      color: "text.primary",
                       fontFamily: "Noto Sans Tamil",
                       fontWeight: "bold",
                     }}
