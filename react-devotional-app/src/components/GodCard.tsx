@@ -6,6 +6,7 @@ import CardActionArea from "@mui/material/CardActionArea";
 import { useNavigate } from "react-router-dom";
 
 interface GodCardInterface {
+  songId: string | number;
   godId: string | number;
   godName?: string;
   tamilName: string;
@@ -15,9 +16,8 @@ interface GodCardInterface {
 
 const GodCard = (GodCardProps: GodCardInterface) => {
   const navigate = useNavigate();
-  console.log("navigate", navigate);
-
-  const { tamilName, godImage, godId } = GodCardProps;
+  const { tamilName, godImage, godId, songId } = GodCardProps;
+  
   return (
     <Card
       sx={{
@@ -36,7 +36,7 @@ const GodCard = (GodCardProps: GodCardInterface) => {
         },
         cursor: "pointer",
       }}
-      onClick={() => navigate(`/${godId}/lyrics`)}
+      onClick={() => navigate(`/${godId}/${songId}`)}
     >
       <CardActionArea
         sx={{
