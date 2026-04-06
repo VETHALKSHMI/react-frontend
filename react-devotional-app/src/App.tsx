@@ -7,7 +7,7 @@ import { useMemo, useState } from "react";
 import { getDevotionalTheme } from "./theme";
 
 function App() {
-  const [mode, setMode] = useState<'light' | 'dark'>('light');
+  const [mode, setMode] = useState<'light' | 'dark'>('dark');
   const theme = useMemo(() => createTheme(getDevotionalTheme(mode)), [mode]);
   const toggleTheme = () => setMode((prev) => (prev === 'light' ? 'dark' : 'light'));
 
